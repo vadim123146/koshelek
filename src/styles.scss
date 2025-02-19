@@ -1,0 +1,32 @@
+$primary-color: #3498db;
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+
+h1, h2 {
+  color: $primary-color;
+}
+
+#app {
+  overflow-x:hidden;
+}
+  
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header, .footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
